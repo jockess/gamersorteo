@@ -1,0 +1,152 @@
+
+.navbar-brand img{
+    width: 330px;
+    height: auto;
+}
+.masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url(../../assets/img/home_banner.png) no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.masthead {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.masthead h1{
+    font-size: 40px;
+    margin: 0;
+    line-height: 50px;
+    color: #fff;
+    
+}
+.masthead h1 .xbox{
+    font-size: 65px;
+    margin: 0;
+    font-family: Segoe Pro Black, Segoe UI,SegoeUI,Helvetica,Arial,sans-serif;
+    
+}
+.lime-green-c{
+    color:#9bf00b;
+}
+.masthead p{
+    font-size: 18px;
+    margin: 0;
+}
+.masthead .gs-text-hero{
+
+}
+.masthead .gs-img-hero img{
+    height: 400px;
+}
+.gs-select-location{
+    position: relative;
+    margin-top: -74px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #1F1F22;
+    z-index: 2;
+}
+.gs-select-location p{
+    color:#FFF;
+    margin: 0;
+    font-family: Segoe Pro Semibold, Segoe UI,SegoeUI,Helvetica,Arial,sans-serif;
+}
+.bg-dark{
+    background-color: #000000 !important;
+}
+.img-hover-zoom{
+    max-width: calc(1600px + 10%);
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 00px;
+}
+.img-hover-zoom ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: inline-table;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+.img-hover-zoom ul li {
+    display: table-cell;
+    vertical-align: bottom;
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 500ms ease;
+}
+.img-hover-zoom ul li.initial{
+    width: 25%;
+}
+.img-hover-zoom ul li.initial:hover {
+    background-size: 120% 120%;
+}
+.img-hover-zoom ul li.initial {
+    background-size: 100% 100%;
+}
+.img-hover-zoom ul li.initial:nth-child(1){
+    background-image: url(../../assets/img/monterrey.png);
+}
+.img-hover-zoom ul li.initial:nth-child(2){
+    background-image: url(../../assets/img/queretaro.png);
+}
+.img-hover-zoom ul li.initial:nth-child(3){
+    background-image: url(../../assets/img/torreon.png);
+}
+.img-hover-zoom ul li.initial:nth-child(4){
+    background-image: url(../../assets/img/monclova.png);
+}
+.img-hover-zoom ul li>.mainCont {
+    display: block;
+    height: 614px;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    font-family: SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: all 200ms ease;
+    display: block;
+    overflow: hidden;
+}
+.mainCont .purchase {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 56px;
+    bottom: 8%;
+    margin-left: 1.8vw;
+    width: 77%;
+    text-align: center;
+}
+.mainCont .purchase .ubica{
+    font-family: Segoe Pro Black, Segoe UI,SegoeUI,Helvetica,Arial,sans-serif;
+    font-size: 30px;
+}
+.gs-info{
+    background: url(../../assets/img/fondogamer.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1C1989;
+    border-color: #1C1989;
+    border-radius: 0;
+    border-right: 5px solid #DE49BE;
+    border-left: 5px solid #46BFCA;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #131160;
+    border-color: #131160;
+}
