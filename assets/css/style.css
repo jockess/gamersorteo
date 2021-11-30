@@ -6,7 +6,7 @@
 .masthead {
     position: relative;
     background-color: #343a40;
-    background: url(../../assets/img/home_banner.png) no-repeat center center;
+    background: url(assets/img/home_banner.png) no-repeat center center;
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -92,16 +92,16 @@
     background-size: 100% 100%;
 }
 .img-hover-zoom ul li.initial:nth-child(1){
-    background-image: url(../../assets/img/monterrey.png);
+    background-image: url(assets/img/monterrey.png);
 }
 .img-hover-zoom ul li.initial:nth-child(2){
-    background-image: url(../../assets/img/queretaro.png);
+    background-image: url(assets/img/queretaro.png);
 }
 .img-hover-zoom ul li.initial:nth-child(3){
-    background-image: url(../../assets/img/torreon.png);
+    background-image: url(assets/img/torreon.png);
 }
 .img-hover-zoom ul li.initial:nth-child(4){
-    background-image: url(../../assets/img/monclova.png);
+    background-image: url(assets/img/monclova.png);
 }
 .img-hover-zoom ul li>.mainCont {
     display: block;
@@ -132,7 +132,7 @@
     font-size: 30px;
 }
 .gs-info{
-    background: url(../../assets/img/fondogamer.jpg);
+    background: url(assets/img/fondogamer.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     padding-top: 60px;
